@@ -8,7 +8,7 @@ fs.readFile(inputfilePath , 'utf8', (err, data)=>{
     const eachLine = data.split('\n')
     for (let ele in eachLine){
         const num = eachLine[ele].split(" ")[1]
-        finalNum += Number(num )
+        finalNum += Number(num)
     }
     
 })
